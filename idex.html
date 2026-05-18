@@ -37,11 +37,6 @@ section {
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
-img {
-    width: 100%;
-    border-radius: 12px;
-}
-
 .colors {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
@@ -56,6 +51,18 @@ img {
     border-radius: 12px;
     box-shadow: 0 3px 8px rgba(0,0,0,0.1);
 }
+
+.color-box {
+    height: 150px;
+    border-radius: 12px;
+    margin: 10px 0;
+}
+
+.brunblakk { background: linear-gradient(135deg, #8B6F47, #5C4033); }
+.grå { background: linear-gradient(135deg, #A9A9A9, #808080); }
+.rødblakk { background: linear-gradient(135deg, #CD5C5C, #8B3A3A); }
+.gulblakk { background: linear-gradient(135deg, #DAA520, #8B7500); }
+.kvit { background: linear-gradient(135deg, #FFFFFF, #F5F5F5); border: 2px solid #ddd; }
 </style>
 </head>
 
@@ -73,7 +80,7 @@ Fjording (Norwegian Fjord Horse) er ein sterk og roleg hest frå Norge.
 Han er kjent for den karakteristiske manen som ofte blir klipt ståande!
 </p>
 <p>
-I Star Stable Online er fjording ein populær rase med mange fargar og “dun”-mønster.
+I Star Stable Online er fjording ein populær rase med mange fargar og "dun"-mønster.
 </p>
 </section>
 
@@ -84,27 +91,32 @@ I Star Stable Online er fjording ein populær rase med mange fargar og “dun”
 
 <div class="color">
 <h3>Brunblakk</h3>
-<img src="https://static.wikia.nocookie.net/starstable/images/..." alt="Brunblakk fjord">
+<div class="color-box brunblakk"></div>
+<p>Brunt og svart</p>
 </div>
 
 <div class="color">
 <h3>Grå</h3>
-<img src="https://static.wikia.nocookie.net/starstable/images/..." alt="Grå fjord">
+<div class="color-box grå"></div>
+<p>Grå farge</p>
 </div>
 
 <div class="color">
 <h3>Rødblakk</h3>
-<img src="https://static.wikia.nocookie.net/starstable/images/..." alt="Rødblakk fjord">
+<div class="color-box rødblakk"></div>
+<p>Raudt og svart</p>
 </div>
 
 <div class="color">
 <h3>Gulblakk</h3>
-<img src="https://static.wikia.nocookie.net/starstable/images/..." alt="Gulblakk fjord">
+<div class="color-box gulblakk"></div>
+<p>Gult og svart</p>
 </div>
 
 <div class="color">
 <h3>Kvit (sjeldan)</h3>
-<img src="https://static.wikia.nocookie.net/starstable/images/..." alt="Kvit fjord">
+<div class="color-box kvit"></div>
+<p>Kvit farge</p>
 </div>
 
 </div>
@@ -112,7 +124,7 @@ I Star Stable Online er fjording ein populær rase med mange fargar og “dun”
 
 <section class="card">
 <h2>💜 Bonus</h2>
-<p>Fjording er ein av dei mest elskede rasene i SSO fordi han er “bombproof” og allsidig 😭🐴</p>
+<p>Fjording er ein av dei mest elskade rasene i SSO fordi han er "bombproof" og allsidig 😭🐴</p>
 </section>
 
 </body>
